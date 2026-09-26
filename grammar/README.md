@@ -27,11 +27,14 @@ grammar/
 
 ## What to put in a grammar folder
 
-Example for `tenses/present-perfect/`:
+The model page is [`tenses/present-perfect/README.md`](tenses/present-perfect/README.md). Copy that shape for the next rule:
 
-- `README.md` — when to teach it, common mistakes, link to related lessons
-- `form.md` — structure and examples
-- `exercises.html` or `exercises.md` — gap-fill, choose the form, personalisation
-- `answers.md` — if answers are not hidden in the HTML
+- one meaning, in a sentence
+- the form in a table
+- each use as a short rule, then examples
+- the contrast with the tense students confuse it with
+- a small table of common mistakes
+
+Add `exercises.md` or `exercises.html` in the same folder when you want drills. The rule itself stays in `README.md`.
 
 Create a subfolder only when you have (or are about to write) material for that point. Empty folders are harder to maintain than a short README that lists “coming next”.
